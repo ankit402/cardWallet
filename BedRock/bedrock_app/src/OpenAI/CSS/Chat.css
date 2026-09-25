@@ -1,0 +1,113 @@
+.chat-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.chat-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.chat-header h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.chat-header p {
+  color: #666;
+}
+
+/* Question form */
+
+.question-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.question-form label {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.question-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: vertical;
+  outline: none;
+}
+
+.question-form textarea:focus {
+  border-color: #555;
+}
+
+.question-form button {
+  align-self: flex-end;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #222;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.question-form button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+/* Answer section */
+
+.answer-section {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.question-card,
+.answer-card {
+  padding: 22px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+.question-card {
+  background: #f5f5f5;
+}
+
+.answer-card {
+  background: #fff;
+}
+
+.section-title {
+  margin-bottom: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #777;
+}
+
+.question {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.answer {
+  font-size: 16px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
